@@ -131,6 +131,12 @@ Includes:
 ### Architecture Documentation
 ![Architecture](https://github.com/kattabhavana9/second-brain/blob/main/screenshots/Screenshot%202026-03-16%20125939.png?raw=true)
 
+## 🎥 Hedamo Product Analysis (Video)
+
+6 minute video explaining my understanding of Hedamo, areas of confusion, improvement ideas, and my 3-month priorities.
+
+Video Link:
+https://drive.google.com/file/d/1jIIupIfNQLWWSo5pT16VXi6OjSKEkf8I/view?usp=sharing
 
 
  
