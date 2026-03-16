@@ -1,6 +1,7 @@
 # 🧠 Second Brain — AI Powered Knowledge System
 
-Live Demo: https://second-brain-six-dun.vercel.app
+## 🚀 Live Demo
+https://second-brain-six-dun.vercel.app
 
 ## Overview
 
@@ -143,7 +144,7 @@ https://drive.google.com/file/d/1jIIupIfNQLWWSo5pT16VXi6OjSKEkf8I/view?usp=shari
 
 ---
 
-## Author
+## 👩‍💻 Author
 
-Katta Bhavana
-22211a6757@bvrit.ac.in
+**Katta Bhavana**    
+Email: 22211a6757@bvrit.ac.in
