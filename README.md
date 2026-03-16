@@ -121,9 +121,7 @@ Includes:
 
 
 
-Dashboard  
-AI Assistant  
-Knowledge Capture  
+ 
 
 ---
 
