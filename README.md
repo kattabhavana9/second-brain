@@ -120,7 +120,7 @@ Includes:
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing Page](screenshots/01-landing.png)
+![Landing Page](https://github.com/kattabhavana9/second-brain/blob/main/screenshots/Screenshot%202026-03-16%20125310.png?raw=true)
 
 ### Knowledge Dashboard
 ![Dashboard](screenshots/02-dashboard.png)
