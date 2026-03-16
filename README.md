@@ -117,7 +117,19 @@ Includes:
 
 ---
 
-## Screenshots
+## 📸 Screenshots
+
+### Landing Page
+![Landing Page](screenshots/01-landing.png)
+
+### Knowledge Dashboard
+![Dashboard](screenshots/02-dashboard.png)
+
+### AI Assistant Query
+![AI Assistant](screenshots/03-ai-assistant.png)
+
+### Architecture Documentation
+![Architecture](screenshots/04-architecture.png)
 
 
 
