@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 210 40% 98%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 239 84% 67%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 263 70% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 94%;
+    --input: 214 32% 91%;
+    --ring: 239 84% 67%;
+
+    --radius: 0.625rem;
+
+    /* Custom tokens */
+    --surface: 210 40% 98%;
+    --surface-hover: 210 40% 95%;
+    --ai-accent: 263 70% 60%;
+    --ai-accent-light: 263 70% 95%;
+    --indigo-glow: 239 84% 67%;
+
+    --shadow-card: 0 1px 3px 0 hsl(0 0% 0% / 0.04), 0 1px 2px -1px hsl(0 0% 0% / 0.04);
+    --shadow-card-hover: 0 4px 12px -2px hsl(239 84% 67% / 0.08), 0 2px 6px -2px hsl(0 0% 0% / 0.04);
+    --shadow-elevated: 0 10px 30px -10px hsl(239 84% 67% / 0.12), 0 4px 12px -4px hsl(0 0% 0% / 0.06);
+
+    --gradient-mesh: radial-gradient(at 27% 37%, hsl(239 84% 67% / 0.08) 0px, transparent 50%),
+                     radial-gradient(at 97% 21%, hsl(263 70% 60% / 0.06) 0px, transparent 50%),
+                     radial-gradient(at 52% 99%, hsl(210 40% 96%) 0px, transparent 50%),
+                     radial-gradient(at 10% 29%, hsl(239 84% 67% / 0.04) 0px, transparent 50%);
+
+    --gradient-hero: linear-gradient(135deg, hsl(239 84% 67% / 0.06) 0%, hsl(263 70% 60% / 0.04) 50%, hsl(0 0% 100%) 100%);
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 239 84% 67%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 40% 96%;
+    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-border: 214 32% 94%;
+    --sidebar-ring: 239 84% 67%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  .mesh-gradient {
+    background: var(--gradient-mesh);
+  }
+
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .shadow-card-hover {
+    box-shadow: var(--shadow-card-hover);
+  }
+
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+
+  .ai-shimmer {
+    background: linear-gradient(
+      90deg,
+      hsl(var(--ai-accent-light)) 0%,
+      hsl(263 70% 92%) 50%,
+      hsl(var(--ai-accent-light)) 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+  }
+
+  @keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--ai-accent)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
