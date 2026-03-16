@@ -129,7 +129,7 @@ Includes:
 ![AI Assistant](https://github.com/kattabhavana9/second-brain/blob/main/screenshots/Screenshot%202026-03-16%20125927.png?raw=true)
 
 ### Architecture Documentation
-![Architecture]([screenshots/04-architecture.png](https://github.com/kattabhavana9/second-brain/blob/main/screenshots/Screenshot%202026-03-16%20125939.png?raw=true))
+![Architecture](https://github.com/kattabhavana9/second-brain/blob/main/screenshots/Screenshot%202026-03-16%20125939.png?raw=true)
 
 
 
