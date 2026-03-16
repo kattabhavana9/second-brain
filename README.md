@@ -126,7 +126,7 @@ Includes:
 ![Dashboard]([screenshots/02-dashboard.png](https://github.com/kattabhavana9/second-brain/blob/main/screenshots/Screenshot%202026-03-16%20125902.png?raw=true))
 
 ### AI Assistant Query
-![AI Assistant](screenshots/03-ai-assistant.png)
+![AI Assistant]([screenshots/03-ai-assistant.png](https://github.com/kattabhavana9/second-brain/blob/main/screenshots/Screenshot%202026-03-16%20125927.png?raw=true))
 
 ### Architecture Documentation
 ![Architecture](screenshots/04-architecture.png)
